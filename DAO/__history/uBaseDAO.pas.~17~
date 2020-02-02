@@ -45,7 +45,7 @@ begin
     DM.FDConnection.StartTransaction;
     FQry.SQL.Text := pSQL;
     FQry.ExecSQL;
-//    Result := FQry.RowsAffected;
+    Result := FQry.RowsAffected;
     DM.FDConnection.Commit;
   except
     DM.FDConnection.Rollback;
