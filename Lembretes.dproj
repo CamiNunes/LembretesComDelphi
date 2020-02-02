@@ -102,6 +102,18 @@
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="DAO\uBaseDAO.pas"/>
+        <DCCReference Include="uDM.pas">
+            <Form>DM</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="DAO\uLembrteDAO.pas"/>
+        <DCCReference Include="Model\uLembrete.pas"/>
+        <DCCReference Include="uFrmInserirLembrete.pas">
+            <Form>Form2</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
